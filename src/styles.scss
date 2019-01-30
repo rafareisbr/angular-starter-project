@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+  Importing Bootstrap grid in the main style.scss file
+   has one major advantage over importing it in
+   the angular.json file. It enables us to override any
+   Sass variable used by the Bootstrap styles definitions.
+*/
+@import "styles-variables";
+
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
