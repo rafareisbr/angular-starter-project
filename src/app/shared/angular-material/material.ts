@@ -1,9 +1,11 @@
 import {
   MatButtonModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatIconModule
 } from "@angular/material";
 
-export const componentes = [
+export const Modules = [
   MatToolbarModule,
-  MatButtonModule
+  MatButtonModule,
+  MatIconModule
 ];

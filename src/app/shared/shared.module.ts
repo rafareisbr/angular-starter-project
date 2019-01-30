@@ -1,6 +1,6 @@
 /*
 * All the “dumb” components and pipes should be implemented here.
-*   These components don’t import and inject services from core
+* These components don’t import and inject services from core
 * or other features in their constructors. They should receive
 * all data though attributes in the template of the component using
 * them. This all sums up to the fact that SharedModule doesn’t have
@@ -12,6 +12,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import * as fromMaterial from './angular-material/material';
 
+import { ToolbarComponent } from './toolbar/toolbar.component';
+
 /* our own custom components */
 
 
@@ -19,21 +21,23 @@ import * as fromMaterial from './angular-material/material';
   imports: [
     /* Coisas do Angular */
     CommonModule,
-    ...fromMaterial.componentes
+    ...fromMaterial.Modules
     /* Componentes de Terceiros */
 
   ],
   declarations: [
     /* Coisas do Angular */
 
+    /* Componentes Customizados */
+    ToolbarComponent
   ],
   exports: [
     /* Coisas do Angular */
 
     /* Componentes de Terceiros */
-    ...fromMaterial.componentes
+    ...fromMaterial.Modules,
     /* Componentes Customizados */
-
+    ToolbarComponent
   ]
 })
 export class SharedModule { }
