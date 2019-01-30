@@ -19,7 +19,6 @@ import { UserService } from "./user/user.service";
     CommonModule,
     HttpClientModule,
   ],
-  declarations: [],
   providers: [
     AuthenticationService,
     UserService
