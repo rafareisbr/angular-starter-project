@@ -193,7 +193,7 @@
 
 "@angular/material@^7.3.0":
   version "7.3.0"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-7.3.0.tgz#66df738234a57f03618c55ed9c83c080531d7aad"
+  resolved "https://registry.yarnpkg.com/@angular/angular-material/-/angular-material-7.3.0.tgz#66df738234a57f03618c55ed9c83c080531d7aad"
   integrity sha512-wWf7dSX8pu9dY9GWiXJfYLA3LTSBREtHLr1NxhN26tQWxGKQ7NJBXth1GTgvojmwt5GzL2j4uyfq/PPvnp95iw==
   dependencies:
     tslib "^1.7.1"

@@ -13,3 +13,6 @@
 
 ### Melhor experiência do Usuário com Loading Indicator
   Medium: https://medium.com/@tomastrajan/how-to-style-angular-application-loading-with-angular-cli-like-a-boss-cdd4f5358554
+
+### Colocando Temas
+  Medium: https://medium.com/@tomastrajan/the-complete-guide-to-angular-material-themes-4d165a9d24d1

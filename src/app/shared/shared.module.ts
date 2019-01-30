@@ -10,6 +10,7 @@
 /* 3rd party libraries */
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import * as fromMaterial from './angular-material/material';
 
 /* our own custom components */
 
@@ -17,8 +18,8 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   imports: [
     /* Coisas do Angular */
-    CommonModule
-
+    CommonModule,
+    ...fromMaterial.componentes
     /* Componentes de Terceiros */
 
   ],
@@ -30,7 +31,7 @@ import { CommonModule } from '@angular/common';
     /* Coisas do Angular */
 
     /* Componentes de Terceiros */
-
+    ...fromMaterial.componentes
     /* Componentes Customizados */
 
   ]
