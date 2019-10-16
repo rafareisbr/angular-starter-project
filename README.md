@@ -16,3 +16,6 @@
 
 ### Colocando Temas
   Medium: https://medium.com/@tomastrajan/the-complete-guide-to-angular-material-themes-4d165a9d24d1
+
+### Padrão Façade para diminuir o acoplamento dos serviços
+  Medium: https://medium.com/@balramchavan/best-practices-building-angular-services-using-facade-design-pattern-for-complex-systems-d8c516cb95eb
